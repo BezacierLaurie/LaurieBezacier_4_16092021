@@ -681,16 +681,6 @@ a {
 
 /* Modifications apportées au CSS */
 
-.bloc2Services {
-  display: flex;
-  justify-content: center;
-}
-
-.bloc4Portfolio {
-  display: flex;
-  justify-content: center;
-}
-
 /* 
 p {
     font-size: 11px;
@@ -711,8 +701,17 @@ h1 {
 }
 
 .introContact > h1,
-.introContact > p {
+.introContact > p,
+.introContact > h2 {
   color: white !important;
+}
+
+.introContact > h2
+{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 0;
 }
 
 /* Fin des modifications apportées au CSS */
@@ -741,11 +740,16 @@ h1 {
 
 /* Modifications apportées au CSS */
 
+.bloc2Services {
+    display: flex;
+    justify-content: center;
+  }
+
 .bloc2Services > h2 {
   font-size: 22px;
   line-height: 1.4em;
   width: 60%;
-}
+}  
 
 .bloc2Services_Citation {
   display: flex;
@@ -764,10 +768,26 @@ h1 {
   margin-bottom: 15px;
 }
 
+.bloc3WID > h2
+{
+    text-shadow: black 1px 0 10px;
+}
+
+.bloc4Portfolio {
+    display: flex;
+    justify-content: center;
+  }
+
 .bloc4Portfolio > h2 {
   font-size: 22px;
   line-height: 1.4em;
   width: 45%;
+}
+
+.bloc5CTA > h2
+{
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+
 }
 
 /* Fin des modifications apportées au CSS */
@@ -916,13 +936,13 @@ h4 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -940,20 +960,31 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
+
+  /* Modifications apportées au 'CSS' */
+  /*
   .bloc {
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
   }
+  */
+  /* Fin des modifications apportées au 'CSS' */
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
     width: 100%;
   }
+
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
+    /* Modifications apportées au 'CSS' */
+    /*
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
+    */
+    /* Fin des modifications apportées au 'CSS' */
   }
 }
 
