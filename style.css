@@ -702,13 +702,13 @@ h1 {
   font-size: 20px;
 }
 
-.introContact > h1,
-.introContact > p,
-.introContact > h2 {
-  color: white !important;
+.bloc6_IntroContact > h1,
+.bloc6_IntroContact > p,
+.bloc6_IntroContact > h2 {
+  color: black !important;
 }
 
-.introContact > h2 {
+.bloc6_IntroContact > h2 {
   font-size: 14px;
   text-align: center;
   margin-top: 1px;
