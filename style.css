@@ -654,7 +654,9 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  /* Modifications apportées au 'CSS' */
+  color: black !important;
+  /* Fin des modifications apportées au 'CSS' */
 }
 
 .container {
@@ -706,12 +708,11 @@ h1 {
   color: white !important;
 }
 
-.introContact > h2
-{
-    font-size: 14px;
-    text-align: center;
-    margin-top: 1px;
-    margin-bottom: 0;
+.introContact > h2 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 0;
 }
 
 /* Fin des modifications apportées au CSS */
@@ -741,15 +742,15 @@ h1 {
 /* Modifications apportées au CSS */
 
 .bloc2Services {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: center;
+}
 
 .bloc2Services > h2 {
   font-size: 22px;
   line-height: 1.4em;
   width: 60%;
-}  
+}
 
 .bloc2Services_Citation {
   display: flex;
@@ -768,15 +769,14 @@ h1 {
   margin-bottom: 15px;
 }
 
-.bloc3WID > h2
-{
-    text-shadow: black 1px 0 10px;
+.bloc3WID > h2 {
+  text-shadow: black 1px 0 10px;
 }
 
 .bloc4Portfolio {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: center;
+}
 
 .bloc4Portfolio > h2 {
   font-size: 22px;
@@ -784,10 +784,8 @@ h1 {
   width: 45%;
 }
 
-.bloc5CTA > h2
-{
-    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
-
+.bloc5CTA > h2 {
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 
 /* Fin des modifications apportées au CSS */
@@ -822,6 +820,18 @@ h4 {
   margin-bottom: 14px;
   margin-top: 24px;
 }
+
+/* Modifications apportées au 'CSS' */
+
+.black {
+  color: black !important;
+}
+
+.black > a:hover {
+  text-shadow: white 1px 0 10px;
+}
+
+/* Fin des modifications apportées au 'CSS' */
 
 .white {
   color: #ffffff !important;
@@ -868,14 +878,22 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  /* Modifications apportées au 'CSS' */
+  color: black !important;
+  /* Fin des modifications apportées au 'CSS' */
+  height: 48px;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #ffffff !important;
+  /* Modifications apportées au 'CSS' */
+  color: black !important;
+  /* Fin des modifications apportées au 'CSS' */
 }
 
+/* Modifications apportées au 'CSS' */
+
+/*
 .ltc-white {
   color: #ffffff !important;
 }
@@ -883,6 +901,9 @@ h4 {
 .ltc-white:hover {
   color: #cccccc !important;
 }
+*/
+
+/* Fin des modifications apportées au 'CSS' */
 
 .ltc-atomic-tangerine {
   color: #f3976c !important;
