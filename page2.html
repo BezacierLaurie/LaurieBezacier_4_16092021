@@ -48,7 +48,7 @@
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
-								alt="Logo de l'entreprise 'La Chouette Agence', représentée par une chouette (l'animal), dans un style 'origami'"></a>
+								alt="Logo de l'entreprise 'La Chouette Agence'."></a>
 						<!-- Menu burger -->
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 							data-toggle="collapse" data-target=".navbar-1">
@@ -100,29 +100,29 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1">
+						<form id="form_1" action="post">
 							<div class="form-group">
-								<label>
-									Nom
+								<label for="name">
+									Nom (champs obligatoire)
 								</label>
-								<input id="name" class="form-control" required aria-required=true>
+								<input id="name" type="text" class="form-control" aria-required=true>
 							</div>
 							<div class="form-group">
-								<label>
-									Adresse email
+								<label for="email">
+									Adresse email (champs obligatoire)
 								</label>
-								<input id="email" class="form-control" type="email" required aria-required=true>
+								<input id="email" type="email" class="form-control" aria-required=true>
 							</div>
 							<div class="form-group">
-								<label>
-									Comment nous avez-vous connu ?
+								<label for="input_504">
+									Comment nous avez-vous connu ? (champ obligatoire)
 								</label>
-								<input class="form-control" type="email" required aria-required=true id="input_504">
+								<input id="input_504" type="text" class="form-control" aria-required=true>
 							</div>
 							<div class="form-group">
-								<label>
-									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50" required
+								<label for="message">
+									Brief de votre projet (Ajoutez autant de détails que nécessaire) (champs obligatoire)<br>
+								</label><textarea id="message" name="message" class="form-control" rows="4" cols="50" 
 									aria-required=true></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
