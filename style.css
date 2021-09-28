@@ -312,8 +312,10 @@ a:hover {
 /* Fin des modifications apportées au 'CSS' */
 
 .navbar-brand img {
+/* Modifications apportées au 'CSS'
   height: 40px;
   max-height: 200px;
+Fin des modifications apportées au 'CSS' */
   margin: 0 5px 0 0;
   display: inline;
 }
