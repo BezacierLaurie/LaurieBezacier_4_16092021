@@ -301,6 +301,16 @@ a:hover {
   line-height: 44px;
 }
 
+/* Modifications apportées au 'CSS' */
+
+.Nav_Logo
+{
+    height: 40px;
+    width: 214px;
+}
+
+/* Fin des modifications apportées au 'CSS' */
+
 .navbar-brand img {
   height: 40px;
   max-height: 200px;
@@ -740,6 +750,22 @@ h1 {
 }
 
 /* Fin des modifications apportées au CSS */
+
+/* Modifications apportées au 'CSS' */
+
+.bloc1_Logo
+{
+    height: 100px;
+    width: 100px;
+}
+
+.bloc4Portfolio_Img
+{
+    height: 270px;
+    width: 270px;
+}
+
+/* Fin des modifications apportées au 'CSS' */
 
 .social {
   max-width: 400px;
