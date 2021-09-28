@@ -659,6 +659,13 @@ a {
   /* Fin des modifications apportées au 'CSS' */
 }
 
+  /* Modifications apportées au 'CSS' */
+  a:focus
+  {
+      border: black 2px solid;
+  }
+  /* Fin des modifications apportées au 'CSS' */
+
 .container {
   max-width: 1000px;
 }
