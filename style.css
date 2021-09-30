@@ -303,7 +303,7 @@ a:hover {
 
 /* Modifications apportées au 'CSS' */
 
-.Nav_Logo
+.nav_logo
 {
     height: 40px;
     width: 214px;
@@ -721,13 +721,13 @@ h1 {
   font-size: 20px;
 }
 
-.bloc6_IntroContact > h1,
-.bloc6_IntroContact > p,
-.bloc6_IntroContact > h2 {
+.bloc6-intro_contact > h1,
+.bloc6-intro_contact > p,
+.bloc6-intro_contact > h2 {
   color: black !important;
 }
 
-.bloc6_IntroContact > h2 {
+.bloc6-intro_contact > h2 {
   font-size: 14px;
   text-align: center;
   margin-top: 1px;
@@ -755,13 +755,13 @@ h1 {
 
 /* Modifications apportées au 'CSS' */
 
-.bloc1_Logo
+.bloc1_logo
 {
     height: 100px;
     width: 100px;
 }
 
-.bloc4Portfolio_Img
+.bloc4-portfolio_img
 {
     height: 270px;
     width: 270px;
@@ -776,23 +776,23 @@ h1 {
 
 /* Modifications apportées au CSS */
 
-.bloc2Services {
+.bloc2-services {
   display: flex;
   justify-content: center;
 }
 
-.bloc2Services > h2 {
+.bloc2-services > h2 {
   font-size: 22px;
   line-height: 1.4em;
   width: 60%;
 }
 
-.bloc2Services_Citation {
+.bloc2-services_citation {
   display: flex;
   flex-direction: column;
 }
 
-.bloc2Services_Citation > .citation {
+.bloc2-services_citation > .citation {
   font-size: 20px;
   font-style: italic;
   width: 78%;
@@ -800,26 +800,26 @@ h1 {
   margin-bottom: 0;
 }
 
-.bloc2Services_Citation > p {
+.bloc2-services_citation > p {
   margin-bottom: 15px;
 }
 
-.bloc3WID > h2 {
+.bloc3-wid > h2 {
   text-shadow: black 1px 0 10px;
 }
 
-.bloc4Portfolio {
+.bloc4-portfolio {
   display: flex;
   justify-content: center;
 }
 
-.bloc4Portfolio > h2 {
+.bloc4-portfolio > h2 {
   font-size: 22px;
   line-height: 1.4em;
   width: 45%;
 }
 
-.bloc5CTA > h2 {
+.bloc5-cta > h2 {
   text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
   color: white !important;
 }
